@@ -1,0 +1,48 @@
+{
+  "about": "The LGPL-only FFmpeg that ships inside Nana Creator Studio Professional on macOS. Built by scripts/ffmpeg-lgpl/build-macos.sh; put in place by scripts/ffmpeg-lgpl/install-binary.js, which refuses any binary whose SHA-256 differs.",
+  "version": "6.1.6",
+  "license": "LGPL-2.1-or-later",
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "minimumMacOS": "12.0",
+  "sha256": "d50f46bfeb9f529beee44a50d1d2c450478c96fb9ba2985b1ed36f1912527c0e",
+  "bytes": 47280520,
+  "sources": {
+    "ffmpeg": "https://ffmpeg.org/releases/ffmpeg-6.1.6.tar.xz sha256 d4fcb164028dd3beee5d92c0ac72e46aac6973c75ea12dc14de07bf8f407370a",
+    "freetype": "2.14.3 (FTL)",
+    "harfbuzz": "14.6.0 (Old MIT)",
+    "zimg": "3.0.6 (WTFPL)"
+  },
+  "licenses": [
+    {
+      "file": "COPYING.LGPLv2.1",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+    },
+    {
+      "file": "LICENSE.md",
+      "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2"
+    },
+    {
+      "file": "freetype-FTL.TXT",
+      "sha256": "5a5ee54c5001bbad1cdc1a57cc3dd4c42199b2da09d39c7ee41fab002d02967f"
+    },
+    {
+      "file": "freetype-LICENSE.TXT",
+      "sha256": "bd36c8b474855fa294c2ec5c184544478ef3720aad37d65a6296a4f264fd2d3b"
+    },
+    {
+      "file": "harfbuzz-COPYING",
+      "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+    },
+    {
+      "file": "harfbuzz-ms-use-COPYING",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "file": "zimg-COPYING",
+      "sha256": "7637386b5f81e8a719ca336233149005e5fa28b5e6054ea7b67de49355b0ad40"
+    }
+  ]
+}
